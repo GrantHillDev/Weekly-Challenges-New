@@ -6,7 +6,7 @@ namespace ChallengesWithTestsMark8
     {
         public bool AreTwoNumbersTheSame(int num1, int num2)
         {
-            if(num1 == num2)
+            if (num1 == num2)
             {
                 return true;
             }
@@ -60,7 +60,7 @@ namespace ChallengesWithTestsMark8
         }
 
         public string GetHey()
-        {//passed alltests. Just remember to look at 
+        {//passed all tests. Just remember to look at what the test is asking for if you're not passing it.
             //throw new NotImplementedException();
             //throw new NotImplementedException();
             return "HEY!";
