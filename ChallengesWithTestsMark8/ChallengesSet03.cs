@@ -10,7 +10,7 @@ namespace ChallengesWithTestsMark8
         {
             for (int i = 0; i < vals.Length; i++)//we aren't necessarily looking to populate an array with values in its indexes -- we just need a script that can parse through however many indexes it's going to have.
             {
-                if (vals[i] == false)//if i happens upon an index value fo false whilst it is parsing through the vals array, return true.
+                if (vals[i] == false)//if i happens upon an index value of false whilst it is parsing through the vals array, return true.
                 {
                     return true;
                 }
