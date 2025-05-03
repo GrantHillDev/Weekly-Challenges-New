@@ -6,6 +6,8 @@ namespace ChallengesWithTestsMark8
     {
         static void Main(string[] args)
         {
+            //TurnWordsIntoSentence("");//needs a project reference in order to know what this method is.
+
             Console.WriteLine("Hello, world!");
         }
     }

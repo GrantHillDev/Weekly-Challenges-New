@@ -67,7 +67,7 @@ namespace ChallengesWithTestsMark8.Tests
         }
 
         [Theory]
-        [InlineData(new[] { 1, 2, 3 }, true)]
+        [InlineData(new[] { 1, 2, 3 }, true)]//it'd be really helpful to know exactly what tests I'm passing, and which ones I'm failing....
         [InlineData(new[] { -3, -2, -1 }, true)]
         [InlineData(new[] { 1, 2, 3, 4, 5, 6 }, true)]
         [InlineData(new[] { 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 6, 6, 6 }, true)]
